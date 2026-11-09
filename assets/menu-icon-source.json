@@ -1,0 +1,19 @@
+{
+  "bundle": "/mnt/FastGaming1/SteamLibrary/steamapps/common/PVZ Replanted/Replanted_Data/StreamingAssets/aa/StandaloneWindows64/uiatlasshared_assets_all.bundle",
+  "bundle_sha256": "a1ab874d5f737c422743b8e10b209b3b3ceb3f93d23a9419fe277670387d09a1",
+  "sprite": "Zen_GardenGlove",
+  "path_id": -2474307231636651119,
+  "lawn_source": "/home/kevin/modding/pvzreplanted/plant-library/assets/lawn.png",
+  "lawn_sha256": "69d7031ca62475ab0ecf1c2b7999318501215b2e0aeb5f3dbc29a4c9bc8d99da",
+  "icon_size": [
+    512,
+    512
+  ],
+  "foreground_bounds": [
+    440,
+    440
+  ],
+  "foreground_bottom": 28,
+  "sha256": "45f2c232489c4a62e794707068a41bc38fae4675dca66162fb28b6680bf5f4d2",
+  "game_started": false
+}

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GameDir Condition="'$(GameDir)' == ''">/mnt/FastGaming1/SteamLibrary/steamapps/common/PVZ Replanted</GameDir>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <AssemblyName>LawnGlove</AssemblyName>
+    <Version>1.4.3</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/*.cs" />
+    <Reference Include="$(GameDir)/Mods/BloomEngine.dll" Private="false" />
+    <EmbeddedResource Include="assets/*" LogicalName="LawnGlove.Assets.%(Filename)%(Extension)" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/UnityEngine.ImageConversionModule.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Il2Cppmscorlib.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Unity.InputSystem.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/UnityEngine.UI.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/UnityEngine.TextRenderingModule.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Unity.Addressables.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Unity.ResourceManager.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Il2CppTekly.DataModels.Runtime.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Il2CppTekly.TreeState.Runtime.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/Il2CppAssemblies/Unity.Mathematics.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/net6/MelonLoader.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/net6/0Harmony.dll" Private="false" />
+    <Reference Include="$(GameDir)/MelonLoader/net6/Il2CppInterop.Runtime.dll" Private="false" />
+  </ItemGroup>
+</Project>

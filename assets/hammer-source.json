@@ -1,0 +1,14 @@
+{
+  "bundle": "/mnt/FastGaming1/SteamLibrary/steamapps/common/PVZ Replanted/Replanted_Data/StreamingAssets/aa/StandaloneWindows64/spineassets_assets_assets/art/characters/spine.bundle",
+  "skeleton_data": 6400684083306646311,
+  "skeleton": 5685515094184478285,
+  "atlas": -2699849677968133145,
+  "texture": 3979291817390956949,
+  "pose": "setup",
+  "sha256": "d22449edadf6a83b93450c53da344d3f6c5d9265994fcae0a853514019c1a661",
+  "attachments": [
+    "symbol_hammer_3",
+    "symbol_hammer_1",
+    "symbol_hammer_2"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.4.2",
+  "title": "Glove Mod",
+  "installed": "/mnt/FastGaming1/SteamLibrary/steamapps/common/PVZ Replanted/Mods/LawnGlove.dll",
+  "sha256": "4e705698261b1b796d8a031118d0a0529100ca2bbd1080a0805680a98287fe37",
+  "backup": "/home/kevin/modding/pvzreplanted/glove-mod/backup/1.4.1-before-mod-menu/LawnGlove.dll",
+  "build": "Release; 0 warnings; 0 errors",
+  "game_started": false,
+  "tests_run": false,
+  "menu": "BloomEngine registration follows Plant Library",
+  "icon_sha256": "45f2c232489c4a62e794707068a41bc38fae4675dca66162fb28b6680bf5f4d2",
+  "reference_screenshot": "/home/kevin/Bilder/Bildschirmfotos/Bildschirmfoto_20261103_075932.png"
+}

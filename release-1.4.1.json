@@ -1,0 +1,10 @@
+{
+  "version": "1.4.1",
+  "installed": "/mnt/FastGaming1/SteamLibrary/steamapps/common/PVZ Replanted/Mods/LawnGlove.dll",
+  "sha256": "e003d0848d454694478b0821c16e84c366d24ee987ab31f5b8125723e639c578",
+  "backup": "/home/kevin/modding/pvzreplanted/glove-mod/backup/1.4.0-before-hammer-icon/LawnGlove.dll",
+  "build": "Release; 0 warnings; 0 errors",
+  "game_started": false,
+  "tests_run": false,
+  "artwork": "Full native Hammer cursor setup pose; inspected offline"
+}
